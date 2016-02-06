@@ -62,6 +62,15 @@ The following would load html5shiv, jQuery 1.x.x, and ie-love for IE8 and below,
 - [Selectivizr 2](https://github.com/corysimmons/selectivizr2)
 - [Respond.js](https://github.com/scottjehl/Respond)
 
+### How can I test my site in IE7-IE8?
+- Use a Virtual Machine
+  - Learn how to install and setup VMs with [VirtualBox](https://www.virtualbox.org/). It's cross-platform and there are probably lots of [YouTube videos](https://www.youtube.com/results?search_query=virtualbox) on it so grab a :coffee: and enjoy.
+  - Microsoft offers [Windows images](https://dev.windows.com/en-us/microsoft-edge/tools/vms) specifically so you can try out old browsers.
+  - [IEVMS](https://github.com/xdissent/ievms) is the incredibly easy way to get/maintain these VMs.
+- [BrowserStack](http://browserstack.com) is expensive and **slow**, but if you can't figure out the other techniques you can use it. I highly suggest you figure out how to use VMs though. It's a skill worth learning.
+
+> I'm not even sure how to test in IE6 anymore, but... seriously?
+
 ### Isn't this a huge download?
 Not really. It's around 25kb. If the user happens to have it cached (by getting it from somewhere like CDNjs) then they won't even download it.
 
