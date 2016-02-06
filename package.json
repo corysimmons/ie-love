@@ -5,7 +5,7 @@
   "main": "dist/ie-love.min.js",
   "scripts": {
     "build": "npm-run-all build:**",
-    "build:clean": "trash ./dist",
+    "build:clean": "trash ./dist; bower cache clean",
     "build:bower": "bower install",
     "build:update": "bower update",
     "build:mkdir": "mkdir ./dist",
