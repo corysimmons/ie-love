@@ -5,11 +5,11 @@
   "main": "dist/ie-love.min.js",
   "scripts": {
     "build": "npm-run-all build:**",
-    "build:clean": "trash ./dist; bower cache clean",
+    "build:clean": "trash ./bower_components; trash ./dist; bower cache clean",
     "build:bower": "bower install",
     "build:update": "bower update",
     "build:mkdir": "mkdir ./dist",
-    "build:concat": "concat-files bower_components/selectivizr2/selectivizr2.js bower_components/respond/dest/respond.src.js bower_components/html5shiv/dist/html5shiv.js bower_components/calc-polyfill/dist/calc.js -o ./dist/ie-love.js",
+    "build:concat": "concat-files bower_components/calc-polyfill/dist/calc.js bower_components/selectivizr2/selectivizr2.js bower_components/respond/dest/respond.src.js -o ./dist/ie-love.js",
     "build:uglify": "uglifyjs ./dist/ie-love.js -o ./dist/ie-love.min.js"
   },
   "repository": {
