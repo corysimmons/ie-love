@@ -1,0 +1,23 @@
+{
+  "name": "ie-love",
+  "version": "0.0.1",
+  "description": "Combo polyfill for IE8 and below.",
+  "main": "dist/ie-love.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corysimmons/ie-love.git"
+  },
+  "keywords": [
+    "ie8",
+    "polyfill"
+  ],
+  "author": "Cory Simmons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corysimmons/ie-love/issues"
+  },
+  "homepage": "https://github.com/corysimmons/ie-love#readme"
+}
