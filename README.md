@@ -44,14 +44,14 @@ The following would load jQuery 1.x.x and ie-love for IE8 and below, and load jQ
 </html>
 ```
 
-### Included Polyfills
+### Included Polyfills (ordered)
 - [Selectivizr 2](https://github.com/corysimmons/selectivizr2)
 - [Respond.js](https://github.com/scottjehl/Respond)
 - [html5shiv](https://github.com/aFarkas/html5shiv)
 - [calc-polyfill](https://github.com/closingtag/calc-polyfill)
 
 ### Isn't this a huge download?
-Not really. It's around a 20kb download and if the user happens to have it cached (by getting it from somewhere like CDNjs) then they won't even download it.
+Not really. It's around a 30kb download and if the user happens to have it cached (by getting it from somewhere like CDNjs) then they won't even download it.
 
 To put it in perspective jQuery is around 100kb and takes about 300ms to load the first time, and 100ms to load every time after that, on my crappy cable connection.
 

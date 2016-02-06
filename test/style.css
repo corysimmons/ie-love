@@ -1,0 +1,14 @@
+div {
+  width: calc(100% / 3);
+}
+
+div:nth-of-type(1) {
+  background: blue;
+  width: calc(100% / 2);
+}
+
+@media (min-width: 800px) {
+  div:nth-of-type(1) {
+    background: red;
+  }
+}

@@ -18,5 +18,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "selectivizr2": "^1.0.6",
+    "calc-polyfill": "*",
+    "respond": "^1.4.2",
+    "html5shiv": "^3.7.3"
+  }
 }
