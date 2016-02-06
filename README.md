@@ -34,7 +34,7 @@ The following would load jQuery 1.x.x and ie-love for IE8 and below, and load jQ
 
     <!--[if lt IE 9]>
       <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-      <script src="ie-love.js">
+      <script src="ie-love.min.js">
     <![endif]-->
 
     <!--[if gt IE 8]>
