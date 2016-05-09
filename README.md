@@ -45,12 +45,12 @@ The following would load html5shiv, jQuery 1.x.x, and ie-love for IE8 and below,
     <article>Hello World</article>
 
     <!--[if lt IE 9]>
-      <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
       <script src="bower_components/ie-love/dist/ie-love.min.js"></script>
     <![endif]-->
 
     <!--[if gt IE 8]>
-      <script src="http://code.jquery.com/jquery-2.2.0.min.js">
+      <script src="https://code.jquery.com/jquery-2.2.3.min.js">
     <![endif]-->
   </body>
 </html>
