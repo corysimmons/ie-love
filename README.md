@@ -5,6 +5,8 @@
 </p>
 
 ### Why?
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/corysimmons/ie-love.svg)](https://greenkeeper.io/)
 IE8 and below are intentionally getting shafted. It's silly. I'm sure people on those older browsers either don't have the means or aren't tech savvy enough to upgrade their browser.
 
 I'm not saying we should go out of our way to develop for them - we did that :poop: for years - but if giving them a viewable experience means adding one polyfill in a conditional comment (they're the only ones who will download it) then why not?
